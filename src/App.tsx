@@ -26,7 +26,7 @@ import InteractiveChronometer from './components/InteractiveChronometer';
 import WatchCustomizer from './components/WatchCustomizer';
 
 // Reference our high-res generated watch image path
-const luxuryWatchImg = "/src/assets/images/luxury_watch_1779547662372.png";
+import luxuryWatchImg from './assets/images/luxury_watch_1779547662372.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -300,7 +300,7 @@ export default function App() {
             src={luxuryWatchImg} 
             alt="Zexan Elysee Luxury Showcase" 
             referrerPolicy="no-referrer"
-            className="w-full h-full object-contain filter drop-shadow-[0_20px_45px_rgba(0,0,0,0.92)] relative z-10" 
+            className="w-full h-full object-contain filter drop-shadow-[0_20px_45px_rgba(0,0,0,0.92)] relative z-10 rounded-3xl" 
           />
         </div>
 

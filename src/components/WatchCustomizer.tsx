@@ -41,7 +41,7 @@ export default function WatchCustomizer({ selectedMaterial, onSelectMaterial, wa
               src={watchImagePath} 
               alt={selectedMaterial.name}
               referrerPolicy="no-referrer"
-              className="w-full h-full object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.85)]"
+              className="w-full h-full object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.85)] rounded-3xl"
             />
           </div>
 
