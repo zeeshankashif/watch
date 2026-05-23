@@ -1,0 +1,6 @@
+{
+  "name": "Luxury Watch Landing Page",
+  "description": "An immersive scrollytelling experience showcasing a masterpiece luxury timepiece with smooth image-scaling, background transitions, and premium editorial layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
